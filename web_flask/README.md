@@ -18,7 +18,8 @@
 - No cross browsers
 
 ### How to install Flask
-```$ pip3 install Flask
+```
+$ pip3 install Flask
 ```
 
 ## Authors
