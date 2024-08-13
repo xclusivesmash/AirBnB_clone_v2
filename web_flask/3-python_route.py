@@ -28,8 +28,9 @@ def display_text(text):
     return string.replace("_", " ")
 
 
+@app.route('/python/', defaults={'text': 'is_cool'})
 @app.route("/python/<text>", strict_slashes=False)
-def python_print(text="is cool"):
+def python_print(text):
     """Prints a text based on input."""
     string = f"Python {text}"
     return string.replace("_", " ")
